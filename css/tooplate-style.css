@@ -15,7 +15,7 @@ ul {
 	list-style: none;
 }
 p {
-	color: #5a5a5a;
+	color: #000000;
 	font-size: 13px;
 	letter-spacing: 0.25px;
 	line-height: 24px;
@@ -24,7 +24,7 @@ p {
 	display: inline-block;
 	background-color: #a2cf8d;
 	padding: 12px 18px;
-	color: #fff;
+	color: #FBF5F3;
 	font-size: 11px;
 	font-weight: 500;
 	letter-spacing: 1px;
@@ -37,7 +37,7 @@ p {
 }
 .white-button a {
 	display: inline-block;
-	background-color: #fff;
+	background-color: #FBF5F3;
 	padding: 12px 18px;
 	color: #121212;
 	font-size: 11px;
@@ -48,7 +48,7 @@ p {
 }
 .white-button a:hover {
 	background-color: #121212;
-	color: #fff;
+	color: #FBF5F3;
 }
 .section-heading h4 {
 	text-align: center;
@@ -114,20 +114,9 @@ p {
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
 }
 .navbar-brand .logo{
-	margin-top: 22px;
-	background-image: url(../img/CYDD_Logo_Beyaz_PNG.png);
-	display: inline-block;
-	width: 50px;
-	height: 50px;
-	background-repeat: no-repeat;
-}
-.header.active .navbar-brand .logo{
-	margin-top: 22px;
-	background-image: url(../img/CYDD_Logo_Mavi_PNG.png);
-	display: inline-block;
-	width: 50px;
-	height: 50px;
-	background-repeat: no-repeat;
+	margin-top: 2px;
+	display: flex;
+	height: 75px;
 }
 #main-nav {
 	background-color: transparent;
@@ -194,7 +183,7 @@ p {
 /* HERO SLIDER */
 
 .slide-caption {
-	color: #fff;
+	color: #FBF5F3;
 }
 
 .slide-caption span {
@@ -228,7 +217,7 @@ ul.cd-hero-slider {
 }
 
 .service-item {
-	background-color: #fff;
+	background-color: #FBF5F3;
 	text-align: center;
 	padding: 30px 20px;
 	transition: all 0.7s;
@@ -249,7 +238,7 @@ ul.cd-hero-slider {
 }
 
 .service-item:hover h4 {
-	color: #fff;
+	color: #FBF5F3;
 }
 
 .service-item i {
@@ -257,11 +246,11 @@ ul.cd-hero-slider {
 }
 
 .service-item:hover i {
-	color: #fff;
+	color: #FBF5F3;
 }
 
 .service-item:hover p {
-	color: #fff;
+	color: #FBF5F3;
 }
 
 .first-service .icon {
@@ -315,7 +304,7 @@ ul.cd-hero-slider {
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding: 80px 0px;
-	color: #ffffff;
+	color: #FBF5F3;
 }
 
 #what-we-do .right-image img {
@@ -324,16 +313,17 @@ ul.cd-hero-slider {
 }
 
 #what-we-do h4 {
-	font-size: 24px;
-	font-weight: 700;
+	font-size: 18px;
+	font-weight: 500;
 	letter-spacing: 0.5px;
 	line-height: 30px;
 	margin-bottom: 25px;
+	text-align: center;
 }
 
 #what-we-do p {
 	margin-bottom: 30px;
-	color: #fff;
+	color: #FBF5F3;
 }
 
 #what-we-do ul li {
@@ -367,14 +357,14 @@ ul.cd-hero-slider {
 
 .filter-categories ul li span {
   cursor: pointer;
-  color: #5a5a5a;
+  color: #000000;
   display: inline-block;
   font-size: 14px;
   font-weight: 400;
 }
 
 .filter-categories ul li.active span {
-  color: #a2cf8d;
+  color: #6F8AB7;
 }
 
 .project-item {
@@ -394,7 +384,7 @@ ul.cd-hero-slider {
 
 .project-item .hover-effect {
 	position: absolute;
-	background-color: rgba(162, 207, 141, 0.95);
+	background-color: #BDD4E6EE;
 	width: 100%;
 	top: 0;
 	bottom: 0;
@@ -411,13 +401,13 @@ ul.cd-hero-slider {
 	height: 46px;
 	background-color: #fff;
 	line-height: 46px;
-	color: #a2cf8d;
+	color: #012D74;
 	border-radius: 50%;
 	font-size: 18px;
 }
 
 .project-item .hover-effect i:hover {
-	background-color: #5c9d7d;
+	background-color: #012D7499;
 	color: #fff;
 	transition: all 0.5s;
 }
@@ -439,15 +429,16 @@ ul.cd-hero-slider {
 }
 
 #blog .section-heading h4, #blog2 .section-heading h4 {
-	color: #fff;
+	color: #FBF5F3;
 }
 
 #blog .section-heading .line-dec, #blog2 .section-heading .line-dec {
-	background-color: #fff;
+	background-color: #FBF5F3;
 }
 
-#blog .pop, .pop2, .pop3, #blog2 .pop, .pop2, .pop3 {
-	background-color: #fff;
+#blog .pop, #blog .pop2, #blog .pop3, #blog .pop4, #blog .pop5, #blog .pop6,
+#blog2 .pop7, #blog2 .pop8, #blog2 .pop9, #blog2 .pop10, #blog2 .pop11 {
+	background-color: #FBF5F3;
 }
 
 .blog-item {
@@ -475,13 +466,13 @@ ul.cd-hero-slider {
 .blog-item .text-content h4 {
 	font-size: 16px;
 	font-weight: 700;
-	color: #fff;
+	color: #FBF5F3;
 	letter-spacing: 0.5px;
 }
 
 .blog-item .text-content span {
 	font-size: 12px;
-	color: #fff;
+	color: #FBF5F3;
 }
 
 .blog-item .text-content em {
@@ -490,7 +481,7 @@ ul.cd-hero-slider {
 	margin-right: 5px;
 }
 
-.pop, .pop2, .pop3 {
+.pop, .pop2, .pop3, .pop4, .pop5, .pop6, .pop7, .pop8, .pop9, .pop10, .pop11 {
 	z-index: 9999;
 	text-align: right;
 	padding: 30px;
@@ -503,7 +494,8 @@ ul.cd-hero-slider {
     box-shadow: 0px 0px 25px #7a7a7a;
 }
 
-.pop span, .pop2 span, .pop3 span {
+.pop span, .pop2 span, .pop3 span, .pop4 span, .pop5 span, .pop6 span, .pop7 span, .pop8 span, 
+.pop9 span, .pop10 span, .pop11 span {
 	margin-bottom: 20px;
 	cursor: pointer;
 	width: 44px;
@@ -515,11 +507,12 @@ ul.cd-hero-slider {
 	background-color: #6F8AB7;
 }
 
-.pop p, .pop2 p, .pop3 p {
+.pop p, .pop2 p, .pop3 p, .pop4 p, .pop5 p, .pop6 p, .pop7 p, .pop8 p, .pop9 p, .pop10 p, .pop11 p {
 	text-align: left;
 }
 
-.pop span:hover, .pop2 span:hover, .pop3 span:hover {
+.pop span:hover, .pop2 span:hover, .pop3 span:hover, .pop4 span:hover, .pop5 span:hover, .pop6 span:hover,
+.pop7 span:hover, .pop8 span:hover, .pop9 span:hover, .pop10 span:hover, .pop11 span:hover {
 	background-color: #BDD4E6;
 	transition: all 0.5s;
 }
