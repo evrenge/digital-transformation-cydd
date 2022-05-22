@@ -11,6 +11,7 @@ Primary style
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -214,7 +215,7 @@ Single slide style
   background-image: url(../img/guessed2000.png);
 }
 .cd-hero-slider li:nth-of-type(2) {
-  background-image: url(../img/genclik_soz.jpg);
+  background-image: url(../img/genclik_soz.jpeg);
 }
 .cd-hero-slider .cd-full-width,
 .cd-hero-slider .cd-half-width {
@@ -630,6 +631,11 @@ Slider navigation
   }
   .cd-slider-nav a::before {
     top: 18px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .cd-full-width .slide-caption{
+    padding-top: 240px!important;
   }
 }
 

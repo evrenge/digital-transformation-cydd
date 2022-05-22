@@ -138,11 +138,11 @@ p {
 }
 .navbar-inverse .navbar-toggle {
 	margin-top: 22px;
-    border-color: #a2cf8d;
-    background-color: #a2cf8d;
+    border-color: #012D74;
+    background-color: #012D74;
 }
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-	background-color: #a2cf8d;
+	background-color: #012D74;
 }
 
 .navbar-toggle {
@@ -395,11 +395,11 @@ ul.cd-hero-slider {
 
 .project-item .hover-effect i {
 	text-align: center;
-	margin-top: 35%;
+	margin-top: 20%;
 	display: inline-block;
 	width: 46px;
 	height: 46px;
-	background-color: #fff;
+	background-color: #FBF5F3;
 	line-height: 46px;
 	color: #012D74;
 	border-radius: 50%;
@@ -408,7 +408,7 @@ ul.cd-hero-slider {
 
 .project-item .hover-effect i:hover {
 	background-color: #012D7499;
-	color: #fff;
+	color: #FBF5F3;
 	transition: all 0.5s;
 }
 
@@ -935,7 +935,7 @@ body.lb-disable-scrolling {
 	#what-we-do .right-image {
 		margin-top: 60px;
 	}
-	#blog .pop {
+	.pop, .pop2, .pop3, .pop4, .pop5, .pop6, .pop7, .pop8, .pop9, .pop10, .pop11 {
 		top: 15%;
 		height: 80%;
 		overflow-y: scroll;
