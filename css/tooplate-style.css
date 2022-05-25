@@ -420,24 +420,25 @@ ul.cd-hero-slider {
 
 /* BLOG */
 
-#blog, #blog2 {
+#blog, #blog2, #blog3 {
 	background: radial-gradient(#FBF5F3, #012D74);
 }
 
-#blog .section-heading, #blog2 .section-heading  {
+#blog .section-heading, #blog2 .section-heading, #blog3 .section-heading {
 	margin-bottom: 60px;
 }
 
-#blog .section-heading h4, #blog2 .section-heading h4 {
+#blog .section-heading h4, #blog2 .section-heading h4, #blog3 .section-heading h4 {
 	color: #FBF5F3;
 }
 
-#blog .section-heading .line-dec, #blog2 .section-heading .line-dec {
+#blog .section-heading .line-dec, #blog2 .section-heading .line-dec, #blog3 .section-heading .line-dec {
 	background-color: #FBF5F3;
 }
 
 #blog .pop, #blog .pop2, #blog .pop3, #blog .pop4, #blog .pop5, #blog .pop6,
-#blog2 .pop7, #blog2 .pop8, #blog2 .pop9, #blog2 .pop10, #blog2 .pop11 {
+#blog2 .pop7, #blog2 .pop8, #blog2 .pop9, #blog2 .pop10, #blog2 .pop11,
+#blog3 .pop12, #blog3 .pop13, #blog3 .pop14, #blog3 .pop15, #blog3 .pop16, #blog3 .pop17 {
 	background-color: #FBF5F3;
 }
 
@@ -481,7 +482,8 @@ ul.cd-hero-slider {
 	margin-right: 5px;
 }
 
-.pop, .pop2, .pop3, .pop4, .pop5, .pop6, .pop7, .pop8, .pop9, .pop10, .pop11 {
+.pop, .pop2, .pop3, .pop4, .pop5, .pop6, .pop7, .pop8, .pop9, .pop10, .pop11,
+.pop12, .pop13, .pop14, .pop15, .pop16, .pop17 {
 	z-index: 9999;
 	text-align: right;
 	padding: 30px;
@@ -495,7 +497,8 @@ ul.cd-hero-slider {
 }
 
 .pop span, .pop2 span, .pop3 span, .pop4 span, .pop5 span, .pop6 span, .pop7 span, .pop8 span, 
-.pop9 span, .pop10 span, .pop11 span {
+.pop9 span, .pop10 span, .pop11 span, .pop12 span, .pop13 span, .pop14 span, .pop15 span, .pop16 span, 
+.pop17 span {
 	margin-bottom: 20px;
 	cursor: pointer;
 	width: 44px;
@@ -507,12 +510,14 @@ ul.cd-hero-slider {
 	background-color: #6F8AB7;
 }
 
-.pop p, .pop2 p, .pop3 p, .pop4 p, .pop5 p, .pop6 p, .pop7 p, .pop8 p, .pop9 p, .pop10 p, .pop11 p {
+.pop p, .pop2 p, .pop3 p, .pop4 p, .pop5 p, .pop6 p, .pop7 p, .pop8 p, .pop9 p, .pop10 p, .pop11 p,
+.pop12 p, .pop13 p, .pop14 p, .pop15 p, .pop16 p, .pop17 p {
 	text-align: left;
 }
 
 .pop span:hover, .pop2 span:hover, .pop3 span:hover, .pop4 span:hover, .pop5 span:hover, .pop6 span:hover,
-.pop7 span:hover, .pop8 span:hover, .pop9 span:hover, .pop10 span:hover, .pop11 span:hover {
+.pop7 span:hover, .pop8 span:hover, .pop9 span:hover, .pop10 span:hover, .pop11 span:hover,
+.pop12 span:hover, .pop13 span:hover, .pop14 span:hover, .pop115 span:hover, .pop16 span:hover, .pop17 span:hover {
 	background-color: #BDD4E6;
 	transition: all 0.5s;
 }
